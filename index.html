@@ -123,6 +123,9 @@
     </style>
 
     <style>
+        .unified_container .row .panel-default .panel-body img{
+            margin: unset;
+        }
         .unified_container .row .panel-default{
             background-color: #4d5357;
             padding: 40px;
@@ -150,6 +153,7 @@
         }
          .unified_container .row .panel-default #api .localAccount .entry .entry-item input:focus{
             outline: none;
+            border: 2px solid #bed600;
          }
         .unified_container .row .panel-default #api .localAccount .entry .entry-item input::placeholder{
               color: #fff;
@@ -173,6 +177,31 @@
         .unified_container .row .panel-default #api .localAccount .create #createAccount{
             color: #fff;
         }
+        .unified_container .row .panel-default #api .localAccount .entry .buttons button{
+            padding: 15px 20px;
+            background-color: #bed600;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+            font-family: "CalibriRegular";
+            width: auto;
+            box-shadow: none;
+            border-radius: 0px;
+        }
+        .login-footer{
+            text-align: left;
+            color: #fff;
+        }
+        .login-copy {
+            font-size: 14.5px;
+            line-height: 16px;
+            font-family: "berlingske_sans_roundlight";
+        }
+        .login-mb-10 {
+          margin-bottom: 10px;
+        }
     </style>
 
 </head>
@@ -185,7 +214,7 @@
             <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <img class="companyLogo" data-tenant-branding-logo="true" src="https://login.microsoftonline.com/templates/src/images/logo.svg" alt="Company Logo">
+                        <img class="companyLogo" data-tenant-branding-logo="true" src="https://www.hoganlovells.com/-/media/themes/hoganlovells/site-theme-name/images/common/hogan-lovells-logo.png?h=76&amp;iar=0&amp;w=76&amp;hash=5AD2BE08383FDA3D743A0D71537EA21C" alt="Company Logo">
                         <div id="api" role="main">
                         </div>
                     </div>
