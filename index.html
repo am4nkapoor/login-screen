@@ -148,11 +148,19 @@
             line-height: 20px;
             border-radius: 0px !important;
         }
+         .unified_container .row .panel-default #api .localAccount .entry .entry-item input:focus{
+            outline: none;
+         }
+        .unified_container .row .panel-default #api .localAccount .entry .entry-item input::placeholder{
+              color: #fff;
+              opacity: 1; /* Firefox */
+              font-size: 20px;
+              line-height: 20px;
+        }
         .unified_container .row .panel-default #api .localAccount .entry .entry-item .password-label #forgotPassword {
             font-family: "CalibriRegular";
             font-size: 20px;
             line-height: 20px;
-            margin-bottom: 15px;
             color: #fff;
         }
         .unified_container .row .panel-default #api .localAccount .create p {
@@ -180,6 +188,13 @@
                         <img class="companyLogo" data-tenant-branding-logo="true" src="https://login.microsoftonline.com/templates/src/images/logo.svg" alt="Company Logo">
                         <div id="api" role="main">
                         </div>
+                    </div>
+                    <div class="login-footer">
+                        <div class="login-copy login-mb-10">For technical support, contact support@engage.hoganlovells.com
+                            <br>This site is
+                            best experienced in
+                            Chrome.</div>
+                        <div class="login-copy">© 2023 Hogan Lovells | Terms of use</div>
                     </div>
                 </div>
             </div>
